@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 300;
+}
+
+body {
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    width: 100vw;
+    height:100vh;
+    min-height: 500px; 
+    min-width: 900px;
+    background: #E5E5E5;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+
+    justify-content: space-between;
+    width: 284.33px;
+
+    padding: 40px;
+    padding-right: 30px;
+    border: 2px solid #DAE9EF;
+    border-radius: 8px;
+    transition: transform 0.2s;
+}
+
+header {
+    width: 100%;
+    height: 150px;
+}
+
+article {
+    height: 208px;
+    overflow:scroll;
+}
+
+h2 {
+    font-size: 12px;
+    line-height: 16px;
+}
+
+h3 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+h4 {
+    font-size: 12px;
+    line-height: 16px;
+    color: #5F6974;
+}
+
+#pro > header > h4 {
+    color: #FFF;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul > li {
+    padding: 6px 0;
+    line-height: 16px;
+}
+
+ul > li.not-in-price {
+    opacity: 0.3;
+}
+
+li > span {
+    font-size: 14px;
+} 
+
+footer {
+    aspect-ratio: 5.2582;
+}
+
+footer > button {
+    text-align: center;
+    padding: 12px 16px;
+    
+    font-weight: 500;
+    font-size: 14px;
+
+    height: 40px;
+    width: 100%;
+    border: none;
+    border-radius: 8px;
+
+    transition: transform 0.3s;
+}
+
+footer > button:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+#starter > footer > button {
+    background: #FFF;
+    border: 1px solid #5A45F2;
+}
+#pro > footer > button {
+    background: #000;
+    color: #FFF;
+}
+#teams > footer > button {
+    background: #5A45F2;
+    color: #FFF;
+}
+
+#starter, #teams {
+    background-color: #FFFFFF;
+    border: 2px solid #DAE9EF;
+}
+
+#pro {
+    background-color: #5A45F2;
+    border: 2px solid #000000;
+    color:#FFFFFF;
+}
+
+#starter {
+    z-index: 1;
+}
+
+#pro {
+    z-index: 2;
+}
+
+#teams {
+    z-index: 3;
+}
+
+section.selected {
+    z-index: 10 !important;
+    transform: scale(1.1) !important;
+}
+
+@media (min-width: 601px) {
+    section {
+        height:476px;
+    }
+    
+    picture > img {
+        width: 100%;
+        height: 73px;
+    }
+    
+    header > picture {
+        width: 100%;
+        height: 73px;
+    }
+}
+
+@media (max-width: 600px) {
+    body {
+        min-width: 0;
+        min-height: 0;
+        padding:0;
+    }
+
+    section {
+        position: absolute;
+        width: 55vw;
+        padding:5vw;
+        aspect-ratio: 0.536551;
+    }
+
+    header > picture {
+        width: 45vw;
+        aspect-ratio: 2.881205;
+    }
+
+    picture > img {
+        width: 45vw;
+        aspect-ratio: 2.881205;
+    }
+    
+
+    article {
+        width: 45vw;
+        aspect-ratio: 1.06867;
+    }
+
+    .left {
+        transform: translateX(-20vw);
+    }
+    .right {
+        transform: translateX(20vw);
+    }
+
+    footer > button {
+        font-size: 3vw;
+        transition: transform 0.1s;
+    }
+
+    footer > button:active {
+        transform: scale(1.08);
+    }
+}
