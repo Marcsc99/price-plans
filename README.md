@@ -33,20 +33,32 @@ La razón principal es porque no creo que sea necesario usar un framework potent
 
 ## Architectura del proyecto
 
-│   index.js\
+│   about.txt\
+│   android-chrome-192x192.png\
+│   android-chrome-512x512.png\
+│   apple-touch-icon.png\
+│   favicon-16x16.png\
+│   favicon-32x32.png\
+│   favicon.ico\
 │   index.html\
+│   index.js\
 │   README.md\
+│   site.webmanifest\
 │\
-└───.assets\
-    ├───.styles\
-    │       style.css\
-    └───.imgs\
-            pro.png\
-            starter.png\
-            team.png\
-            tick-min.white.svg\
-            tick-min.svg\
-
+├───.github\
+│   └───workflows\
+│           main.yml\
+│\
+└───assets\
+    ├───imgs\
+    │       pro.png\
+    │       starter.png\
+    │       team.png\
+    │       tick-min-white.svg\
+    │       tick-min.svg\
+    │\
+    └───styles\
+            style.css\
 
 ## Contact info
 
