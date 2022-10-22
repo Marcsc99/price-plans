@@ -18,6 +18,7 @@ body {
     min-height: 500px; 
     min-width: 900px;
     background: #E5E5E5;
+    gap: 16px;
 }
 
 section {
@@ -34,14 +35,13 @@ section {
     transition: transform 0.2s;
 }
 
-header {
+section > header {
     width: 100%;
     height: 150px;
 }
 
 article {
     height: 208px;
-    overflow:scroll;
 }
 
 h2 {
@@ -86,7 +86,7 @@ footer {
     aspect-ratio: 5.2582;
 }
 
-footer > button {
+button {
     text-align: center;
     padding: 12px 16px;
     
@@ -99,9 +99,12 @@ footer > button {
     border-radius: 8px;
 
     transition: transform 0.3s;
+
+    background: #5A45F2;
+    color: #FFF;
 }
 
-footer > button:hover {
+button:hover {
     transform: scale(1.05);
     cursor: pointer;
 }
@@ -109,6 +112,7 @@ footer > button:hover {
 #starter > footer > button {
     background: #FFF;
     border: 1px solid #5A45F2;
+    color: #000;
 }
 #pro > footer > button {
     background: #000;
@@ -145,6 +149,67 @@ footer > button:hover {
 section.selected {
     z-index: 10 !important;
     transform: scale(1.1) !important;
+}
+
+dialog {
+    top: 50%;
+    left: 50%;
+
+    width: 50vw;
+    max-width: 500px;
+
+    transform: translateX(-50%) translateY(-50%);
+    border: 2px solid #DAE9EF;
+    border-radius: 8px;
+}
+
+.dialog-inside {
+    padding: 40px;
+    width:100%;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.dialog-inside > main > form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+form > input {
+    padding: 6px;
+    border-radius: 8px;
+    width: 100%;
+    
+    font-size: 14px;
+
+    height: 40px;
+    width: 100%;
+    border: 1px solid #5A45F2;
+    outline: 1px solid #5A45F2;
+}
+
+.dialog-inside > header,
+.dialog-inside > main {
+    width: 100%;
+}
+
+.dialog-inside > header > h1 {
+    font-size: 20px;
+}
+
+
+
+#dialog2 > div {
+    text-align: center;
+}
+
+#dialog2 > div > main > p {
+    font-size: 24px;
 }
 
 @media (min-width: 601px) {
@@ -191,6 +256,7 @@ section.selected {
     article {
         width: 45vw;
         aspect-ratio: 1.06867;
+        overflow:scroll;
     }
 
     .left {
@@ -207,5 +273,23 @@ section.selected {
 
     footer > button:active {
         transform: scale(1.08);
+    }
+
+    dialog {    
+        width: 90vw;
+        height: 250px;
+        transform: translateX(-45vw) translateY(-150px);
+        border: 2px solid #DAE9EF;
+        border-radius: 8px;
+    }
+    
+    #dialog-inside {
+        padding: 40px;
+        width:100%;
+        height: 250px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
     }
 }

@@ -9,6 +9,32 @@
         <title>Price List</title>
     </head>
     <body>
+        <dialog id="dialog1">
+            <div class="dialog-inside">
+                <header>
+                    <h1>Leave an email so we can contact you!</h1>
+                    <span id="plan-info"></span>
+                </header>
+                <main>
+                    <form>
+                        <input name="email" type="email" placeholder="characters@characters.domain" 
+                        required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
+                        title="Format: characters@characters.domain"/>
+                        <button type="submit" id="submit-email">Submit</button>
+                    </form>
+                </main>
+            </div>
+        </dialog>
+
+        <dialog id="dialog2">
+            <div class="dialog-inside">
+                <main>
+                    <p>Thank you for trusting us!</p>
+                    <p>We will contact you soon</p>
+                </main>
+            </div>
+        </dialog>
+
         <section id="starter" class="left">
             <header>
                 <picture>
@@ -51,7 +77,7 @@
                 </ul>
             </article>
             <footer>
-                <button onclick="Info(0)">Get Started</button>
+                <button type="button" onclick="Info(0)">Get Started</button>
             </footer>
         </section>
         <section id="pro">
@@ -96,7 +122,7 @@
                 </ul>
             </article>
             <footer>
-                <button onclick="Info(1)">Become a Pro</button>
+                <button type="button" onclick="Info(1)">Become a Pro</button>
             </footer>
         </section>
         <section id="teams" class="right">
@@ -141,7 +167,7 @@
                 </ul>
             </article>
             <footer>
-                <button onclick="Info(2)">Get Teams</button>
+                <button type="button" onclick="Info(2)">Get Teams</button>
             </footer>
         </section>
     </body>
