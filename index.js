@@ -8,7 +8,7 @@ const card = (id) => {
     //Función para llevar una targeta un lado o al centro en móbil
     const go = (side) => { element.classList = [side] } 
     //Función para centrar una tarjeta en móbil
-    const center = () => {r
+    const center = () => {
         if(id == "#starter") card("#pro").go("left")
         else if(id == "#teams") card("#pro").go("right")
     }
