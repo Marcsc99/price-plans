@@ -3,7 +3,7 @@
 # Como acceder a la aplicación
 
 La manera más fácil de acceder a la aplicación es a través de:\
-[https://card-plans.netlify.app/](https://card-plans.netlify.app/)\
+[https://price-plans.netlify.app/](https://price-plans.netlify.app/)\
 He subido la aplicación a través de netlify con GitHub Actions.\
 \
 Si preferís descargar el código ahora os explico cómo.\
