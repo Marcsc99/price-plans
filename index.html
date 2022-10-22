@@ -4,12 +4,12 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Site created for a Nuwe fornt end challenge with 3 Price Plans and Email Modal for more information">
         <link rel="stylesheet" href="./assets/styles/style.css">
-        
-        <title>Price List</title>
+        <title>Price Plans</title>
     </head>
     <body>
-        <dialog id="dialog1">
+        <dialog id="dialog1"> <!--Modal para poner poner el email según el Plan Seleccionado-->
             <div class="dialog-inside">
                 <header>
                     <h1>Leave an email so we can contact you!</h1>
@@ -19,7 +19,7 @@
                     <form>
                         <input name="email" type="email" placeholder="characters@characters.domain" 
                         required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
-                        title="Format: characters@characters.domain"/>
+                        title="Format: characters@characters.domain"/> <!--Input de Emal con Validación Regex-->
                         <button type="submit" id="submit-email">Submit</button>
                     </form>
                 </main>
@@ -35,7 +35,7 @@
             </div>
         </dialog>
 
-        <section id="starter" class="left">
+        <section id="starter" class="left"> <!--Tarjeta Plan Starter-->
             <header>
                 <picture>
                     <img src="./assets/imgs/starter.png" alt="starter plan image"/>
@@ -80,7 +80,7 @@
                 <button type="button" onclick="Info(0)">Get Started</button>
             </footer>
         </section>
-        <section id="pro">
+        <section id="pro"> <!--Tarjeta Plan Pro-->
             <header>
                 <picture>
                     <img src="./assets/imgs/pro.png" alt="pro plan image"/>
@@ -125,7 +125,7 @@
                 <button type="button" onclick="Info(1)">Become a Pro</button>
             </footer>
         </section>
-        <section id="teams" class="right">
+        <section id="teams" class="right"> <!--Tarjeta Plan Team-->
             <header>
                 <picture>
                     <img src="./assets/imgs/team.png" alt="team plan image"/>
