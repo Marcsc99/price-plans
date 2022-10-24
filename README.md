@@ -18,8 +18,8 @@ Desde la misma pestanya del repositorio,en el botón verde que pone "Code", se d
 
 ### Desde terminal
 
+# Clone command
 ```shell
-    # Clone or install commands
     git clone https://github.com/Marcsc99/price-plans
 ```
 
