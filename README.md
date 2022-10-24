@@ -12,7 +12,7 @@ La manera más fácil de acceder a la aplicación es a través de:\
 [https://price-plans.netlify.app/](https://price-plans.netlify.app/)\
 He subido la aplicación a través de netlify con GitHub Actions.\
 \
-Si preferís descargar el código ahora os explico cómo.\
+Si preferís descargar el código ahora os explico cómo.
 
 ## Descargar la aplicación
 
@@ -45,7 +45,7 @@ La razón principal es porque no creo que sea necesario usar un framework potent
 ### SonarCloud
 [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=Marcsc99_price-plans&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=Marcsc99_price-plans)
 
-## Architectura del proyecto
+## Arquitectura del proyecto
 
 │   about.txt\
 │   android-chrome-192x192.png\
@@ -72,7 +72,7 @@ La razón principal es porque no creo que sea necesario usar un framework potent
     │       tick-min.svg\
     │\
     └───styles\
-            style.css\
+            style.css
 
 ## Contact info
 
