@@ -20,7 +20,7 @@ Desde la misma pestanya del repositorio,en el botón verde que pone "Code", se d
 
 ```shell
     # Clone or install commands
-    git clone [https://github.com/Marcsc99/price-plans]https://github.com/Marcsc99/price-plans
+    git clone https://github.com/Marcsc99/price-plans
 ```
 
 ## Arrancar el proyecto
