@@ -46,7 +46,7 @@ $$("section").forEach(section => {
         if(tagName !== "BUTTON") { //Si lo que se ha pulsado no ha sido el boton, es decir, hemos pulsado la tarjeta, interactuamos con ella
             const selectedId = selected.remove() //Deseleccionamos la tarjeta anterior
             if(selectedId != id) selected.add(id) //Si no es la misma, la seleccionamos
-            else selected.reset() //Si es la misma, volvemos todo a sus posiciones originales
+            else selected.reset() //Si es la misma, volvemos las tarjetas a sus posiciones originales
         }
     })
 })
