@@ -32,7 +32,13 @@ Ya en el directorio del proyecto, solo hay que iniciar el index.html, ya sea arr
 La razón principal es porque no creo que sea necesario usar un framework potente como React o Angular para un proyecto tan pequeño, que con unas pocas líneas de HTML, CSS y JS se puede realizar sin ningún tipo de problemas.
 
 ## Calidad del código
+
+# CodeFactor
 [![CodeFactor](https://www.codefactor.io/repository/github/marcsc99/price-plans/badge)](https://www.codefactor.io/repository/github/marcsc99/price-plans)
+
+# SonarCloud
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=Marcsc99_price-plans&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=Marcsc99_price-plans)
+
 ## Architectura del proyecto
 
 │   about.txt\
