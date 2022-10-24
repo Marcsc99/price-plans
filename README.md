@@ -2,6 +2,8 @@
 
 Este proyecto para Jump2Digital lo he hecho con HTML, CSS y JS vanilla. Optimizando las imagenes png y svg y realizando un código que puede ser reutilizable en el caso de hacerlo en mayor escala.
 
+Podéis notar que al elegir una tarjeta, el título de esta aparece en el modal también.
+
 En la versión móbil he decidido hacer que al pulsar una tarjeta, se ponga delante de las demas, dando siempre visión de todas las tarjetas, pero pudiendo elegir la deseada para tener más información.
 
 En el caso del email, he puesto una validación regex aparte de la nativa de HTML, para poder validar que sea un email con un dominio final. No se guarda el email, ni se utiliza para nada, no tengáis reparo en probar el vuestro o cualquier inventado.
