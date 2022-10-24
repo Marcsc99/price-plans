@@ -1,4 +1,10 @@
+# Información dobre el proyecto
 
+Este proyecto para Jump2Digital lo he hecho con HTML, CSS y JS vanilla. Optimizando las imagenes png y svg y realizando un código que puede ser reutilizable en el caso de hacerlo en mayor escala.
+
+En la versión móbil he decidido hacer que al pulsar una tarjeta, se ponga delante de las demas, dando siempre visión de todas las tarjetas, pero pudiendo elegir la deseada para tener más información.
+
+En el caso del email, he puesto una validación regex aparte de la nativa de HTML, para poder validar que sea un email con un dominio final. No se guarda el email, ni se utiliza para nada, no tengáis reparo en probar el vuestro o cualquier inventado.
 
 # Como acceder a la aplicación
 
@@ -18,7 +24,7 @@ Desde la misma pestanya del repositorio,en el botón verde que pone "Code", se d
 
 ### Desde terminal
 
-# Clone command
+#### Clone command
 ```shell
     git clone https://github.com/Marcsc99/price-plans
 ```
@@ -33,10 +39,10 @@ La razón principal es porque no creo que sea necesario usar un framework potent
 
 ## Calidad del código
 
-# CodeFactor
+### CodeFactor
 [![CodeFactor](https://www.codefactor.io/repository/github/marcsc99/price-plans/badge)](https://www.codefactor.io/repository/github/marcsc99/price-plans)
 
-# SonarCloud
+### SonarCloud
 [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=Marcsc99_price-plans&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=Marcsc99_price-plans)
 
 ## Architectura del proyecto
